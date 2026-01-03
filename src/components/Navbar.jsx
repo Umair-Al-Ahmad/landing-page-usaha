@@ -1,13 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../../public/logo.png";
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
-        {/* Logo di sini */}
         <a className="navbar-brand" href="#">
-          <img src={logo} alt="Edukonomi Logo" width="120" height="40" className="d-inline-block align-top" />
+          <img src={logo} alt="Edukonomi Logo" width="120" height="45" className="d-inline-block align-top" />
         </a>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
